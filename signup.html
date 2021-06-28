@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User</title>
+    <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.css">
+</head>
+<body style="background-image: url('images/back.png'); text-align: center; font-family: 'Times New Roman', Times, serif;">
+    <div class="container" >
+        <div class="row">
+            <div style="text-align: center;">
+                <img src="images/logo.png" alt="">
+            </div>
+            <marquee behavior="" direction=""><h3 style="color: black;"><b>Welcome to UCET Card Online</b></h3></marquee>
+ 
+       
+        </div>
+    </div>   
+   <div>      
+        <div class="col-sm-3">
+        </div> 
+       
+            <div class="col-sm-6">       
+               <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h1 style="color: rgb(255, 255, 255);font: size 30px;"> <b>New User</b> </h1>
+                    </div>
+                    <div class="panel-body">
+                        <div style="font-size:x-large;">
+                            <form action="conn.php" method="post">
+                                <div class="form-group">
+                                    <label for="uname" >Username</label>
+                                    <input type="text" class="form-control" id="username" name="username" style="font-size: large;" required*>
+                                    
+                                </div>
+                                <div class="form-group">
+                                   <label for="password"> Password</label>
+                                   <input type="password" class="form-control" id="password" name="password" style="font-size: large;"required>
+                                 </div>
+                                <div class="form-group">
+                                    <label for="email"> E-mail</label>
+                                    <input type="text" class="form-control" id="email" name="email" style="font-size: large;"required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone"> Phone</label>
+                                    <input type="text" class="form-control" id="phone" name="phone" style="font-size: large;"required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="cardholder"> Card Holder Name</label>
+                                    <input type="text" class="form-control" id="cardeholder" name="cardholder" style="font-size: large;"required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="cardnumber"> Card Number</label>
+                                    <input type="text" class="form-control" id="cardnumber" name="cardnumber" style="font-size: large;"required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="expirydate"> Expiry Date</label>
+                                    <input type="text" placeholder="mm/yyyy" class="form-control" id="expirydate" name="expdate" style="font-size: large;"required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="cvv"> CVV</label>
+                                    <input type="text" class="form-control" id="cvv" name="cvv" style="font-size: large;"required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="creditamount"> Credit Amount</label>
+                                    <input type="text" class="form-control" id="creditamount" name="creditamount" style="font-size: large;"required>
+                                </div>
+                            
+                                <br>
+                                <div>
+                                
+                                  <button type="submit" class="btn btn-primary" style="height: 1cm; width: 3cm;font-size:large;" name="submit"><b>Submit</b></button>
+                                  <button type="reset" class="btn btn-primary" style="height: 1cm; width: 3cm;font-size:large;"name="submit"><b>Reset</b></button>
+                                    
+                                 </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>         
+        </div>
+            
+        <div class="col-sm-2">
+
+         </div>  
+    </div>        
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.css">
+</head>
+<body style="background-image: url('images/back.png');text-align: center; font-family: 'Times New Roman', Times, serif;">
+    <div class="row" style="text-align: center;">
+        <img src="images/logo.png" alt="" >
+      </div>
+      <marquee behavior="" direction=""><h3 style="color: black;"><b>Welcome to UCET Card Online</b></h3></marquee>
+      
+      <div class="col-sm-3">
+      
+      </div>
+      <div class="col-sm-6">
+        <div class="container-fluid">
+            <div class="row">
+               <div class="panel panel-primary ">
+                  <div class="panel-heading"> <h1 style="text-align: center; color: rgb(255, 255, 255);font-size: 30px;">Verify</h1> 
+                    <img src="images/cc1.png" alt=""></div>
+                  <div class="panel-body">
+                    <form action="verify.php" method="post">
+                        <div >
+                           <b> CardHolderName</b> <input type="text" class="form-control" name="cardholder" required/><br><br>
+                        </div>
+                        <div >
+                           <b>CardNumber </b> <input type="number" class="form-control" name="cardnumber" required/><br><br>
+                        </div>
+                        <div >
+                           <b> Expiry Date</b><input type="text" class="form-control" name="expdate" required/><br><br>
+
+                        </div>
+                        <div>
+                            <input type="submit" class="btn btn-primary" id="submit" value="Submit">
+                         </div>
+                        
+                    </form>
+                  </div>
+               </div>       
+            </div>
+      </div>
+      <div class="col-sm-3">
+      
+    </div>
+      </div>
+
+              
+
+     
+
+     
+   
+</body>
+</html>

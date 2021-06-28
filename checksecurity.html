@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.css">
+</head>
+<body style="background-image: url('images/back.png'); text-align: center; font-family: 'Times New Roman', Times, serif;">
+  <div class="row">
+    <div style="text-align: center;">
+      <img src="images/logo.png" alt="">
+    </div>
+  </div>
+  <marquee behavior="" direction=""><h3 style="color: black;"><b>Welcome to UCET Card Online</b></h3></marquee>
+  <div class="col-sm-3">
+
+  </div>
+  <div class="col-sm-6">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h2 style="text-align: center; color: rgb(255, 255, 255);font-size: 35px;"><b>Security Purpose</b> </h2>
+      </div>
+      <div class="panel-body">
+        <form action="checksecurity.php" method="post">
+          <div class="form-group">
+            <label for="teacher">Favorite Teacher</label>
+            <input type="text"   class="form-control" id="teacher"  name="teacher" style="font-size: large;" required>           
+          </div>
+          <div class="form-group">
+            <label for="friend">Childhood Friend </label>
+            <input type="text"  class="form-control" id="friend" name="friend" style="font-size: large;"required>
+          </div>        
+          <div class="form-group">
+            <label for="birth"> Your Birth Place</label>
+            <input type="text"  class="form-control" id="birth" name="birth"style="font-size: large;"required>
+          </div>           
+          <div class="form-group">
+            <label for="gp"> Grand-Pa name </label>
+            <input type="text" class="form-control" id="grandpa" name="grandpa" style="font-size: large;"required>
+          </div>                            
+          <div class="form-group">
+            <label for="food">Favorite Food </label>
+            <input type="text"  class="form-control" id="food" name="food" style="font-size: large;"required>
+          </div>         
+          <div>
+            <button type="submit" class="btn btn-primary" style="height: 1cm; width: 3cm;font-size:large;" name="submit"><b>Submit</b></button>           </div>          
+          </div>
+        </form>    
+    
+      </div>
+    </div>
+
+  </div>
+  <div class="col-sm-3">
+
+  </div> 
+
+
+</body>
+</html>

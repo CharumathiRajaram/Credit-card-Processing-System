@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.css">
+
+</head>
+<body style="background-image: url('images/back.png');text-align: center; font-family: 'Times New Roman', Times, serif;">
+    <div class="row" style="text-align: center;">
+        <img src="images/logo.png" alt="" >
+    </div>
+    <marquee behavior="" direction=""><h3 style="color: rgb(0, 0, 0);"><b>Welcome to UCET Card Online</b></h3></marquee>
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-4">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h1 style="text-align: center; color: rgb(255, 255, 255);font-size: 30px;">Payment</h1>
+            </div>
+            <div class="panel-body">
+                <form action="payment.php" method="post">
+
+                    <b>CVV</b> <input type="number" name="cvv" required/><br><br>
+                     <b>Amount</b><input type="number" name="amount"required /><br><br>
+                     <input type="submit" class="btn btn-primary" name="submit"  value="Pay Now">
+                    
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-sm-4">
+    </div> 
+</body>
+</html>
